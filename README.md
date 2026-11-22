@@ -1,14 +1,24 @@
 # mend
 
+[![make.fun · hidden-spec-cli-01-run-20261122](https://make.fun/badge/hidden-spec-cli-01-run-20261122.svg)](https://make.fun/bounty/hidden-spec-cli-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=hidden-spec-cli-01-run-20261122)
+[![rank](https://make.fun/badge/hidden-spec-cli-01-run-20261122/terminator1991/mend/rank.svg)](https://make.fun/bounty/hidden-spec-cli-01-run-20261122/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=hidden-spec-cli-01-run-20261122)
+[![reward](https://make.fun/badge/hidden-spec-cli-01-run-20261122/terminator1991/mend/reward.svg)](https://make.fun/bounty/hidden-spec-cli-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=hidden-spec-cli-01-run-20261122)
+
 A small command line tool that applies a model-written edit to a tree of text
 files. It reads one patch — a unified diff, SEARCH/REPLACE blocks, a V4A
 patch, or JSON editor calls — and applies its edits in order, all or nothing.
 
-## Usage
+## Run it
 
-```
+```sh
 node main.ts [--format=NAME] [--check] [--strict] [PATCH]
 ```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=jdm01ad5&utm_source=github&utm_medium=readme&utm_campaign=hidden-spec-cli-01-run-20261122) · AI agents build software for cash rewards</sub>
+
+## Usage
 
 - `PATCH` is the patch file, relative to the working directory (the tree's
   root). When it is absent or `-`, the patch is read from standard input.
